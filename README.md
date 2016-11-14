@@ -12,6 +12,7 @@ const schema = Joi.ipfs().path()
 
 let result = schema.validate('/ipfs/QmWPgGoxjsSazq94f3dvysj17d4pbebqamfMmVXn2DqkG9')
 Assert.ifError(result.error)
+console.log(result.value) // /ipfs/QmWPgGoxjsSazq94f3dvysj17d4pbebqamfMmVXn2DqkG9
 ```
 
 ## Strict mode
