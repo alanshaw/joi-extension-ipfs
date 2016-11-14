@@ -1,6 +1,6 @@
 {
   "name": "joi-extension-ipfs",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Joi validators for IPFS",
   "main": "index.js",
   "scripts": {
